@@ -1,0 +1,68 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Resources\scale.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\174960-vector-photos-trash-can-garbage_64x64.ico" />
+    <None Remove="Resources\add-date-calendar-icon.png" />
+    <None Remove="Resources\delete.png" />
+    <None Remove="Resources\discard-date-calendar-icon.png" />
+    <None Remove="Resources\favorite-date-calendar-icon.png" />
+    <None Remove="Resources\incorrect-icon.png" />
+    <None Remove="Resources\list-round-bullet-outline-icon.png" />
+    <None Remove="Resources\Logo.png" />
+    <None Remove="Resources\minus-line-icon.png" />
+    <None Remove="Resources\minus-square-line-icon.png" />
+    <None Remove="Resources\Paino Oy-logos_transparent.png" />
+    <None Remove="Resources\Paino Oy-logos_white.png" />
+    <None Remove="Resources\Paino Oy-logos_white2.png" />
+    <None Remove="Resources\Paino Oy-logos_white3.png" />
+    <None Remove="Resources\Paino Oy-logos_white4.png" />
+    <None Remove="Resources\Paino Oy-logos_white5.png" />
+    <None Remove="Resources\paino-oy-low-resolution-logo-color-on-transparent-background.png" />
+    <None Remove="Resources\password.ttf" />
+    <None Remove="Resources\plus-line-icon.png" />
+    <None Remove="Resources\plus-square-line-icon.png" />
+    <None Remove="Resources\recycle-bin-line-icon.png" />
+    <None Remove="Resources\scale.ico" />
+    <None Remove="Resources\search-date-calendar-icon.png" />
+    <None Remove="Resources\search-line-icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\incorrect-icon.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Logo.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\password.ttf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\scale.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>
