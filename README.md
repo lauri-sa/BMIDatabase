@@ -11,7 +11,7 @@ BMIDatabase is a WPF application developed as a school project. The application 
 
 ## Installation
 
-**Clone the repository:** `git clone https://github.com/yourusername/BMIDatabase.git`
+**Clone the repository:** `git clone https://github.com/lauri-sa/BMIDatabase.git`
 
 **Open the solution:** Use Visual Studio to open the `.sln` file in the project directory.
 
